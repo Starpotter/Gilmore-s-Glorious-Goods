@@ -11,17 +11,27 @@
 	
 	<body>
 		<header>
-			<h1>Gilmore's Glorious Goods</h1>
+		  <a href="#main-menu" id="main-menu-toggle" class="menu-toggle" aria-label="Open main menu">
+		    <span class="sr-only">Open main menu</span>
+		    <span class="fa fa-bars" aria-hidden="true"></span>
+		  </a>
+		  <nav id="main-menu" class="main-menu" aria-label="Main menu">
+		    <a href="#main-menu-toggle" id="main-menu-close" class="menu-close" aria-label="Close main menu">
+		      <span class="sr-only">Close main menu</span>
+		      <span class="fa fa-close" aria-hidden="true"></span>
+		    </a>
+		    <ul>
+		      <li><a href="index.html">Home Page</a></li>
+		      <li><a href="products.html">Our Products</a></li>
+		      <li><a href="about_us.html">About Us</a></li>
+		    </ul>
+		  </nav>
+		  <a href="#main-menu-toggle" class="backdrop" tabindex="-1" aria-hidden="true" hidden></a>
 		</header>
-			<nav>
-				<a href="">Home Page</a>
-				&bull;
-				<a href="">Our Products</a>
-				&bull;
-				<a href="">About Us</a>
-		</nav>
+		
 		<h2>Welcome to Gilmore's Glorious Goods</h2>
-		<p>
-		</p>
+		<p>Gilmore's Glorious Goods is the best place for you to purchase all of your high quality magical goods and adventuring gare. Potions of healing. Enchanted weapons and armor. You name it, we probably have it.</p>
+		<p>Feel free to browse through all of our wonderful products <a href="products.html">here.</a> If you want to learn more about our humble orgins, click <a href="about_us">here</a> to read all about it.</p>
+		<p>We hope you find what you are looking for, and that you have a glorious day.</p>
 	</body>
 </html>
